@@ -1,0 +1,39 @@
+Nedim Mulahusic Rock-Paper-Scissors-Pseudocode
+
+COMPUTER CHOICE LOGIC
+Write logic to get the computer choice
+create a function named getComputerChoice() that randomly returns rock, paper, 
+    or scissors using Math.randomly
+Test the returned value w/ console.log(getComputerChoice())
+
+HUMAN CHOICE LOGIC
+Create a function called getHumanChoice
+The function will use prompt to get user input
+return the user input and test it in console.log
+
+KEEPING SCORE
+Create variables for computer and human and initialize to zero
+if human wins +1 for humanScore
+else if robo wins +1 for roboScore
+else it's a tie
+
+PLAY A SINGLE ROUND
+Create a new function called playRound w the parameters HumanChoice and ComputerChoice
+HumanChoice should be case sensitive so that rock, ROCK, ROcK and other variations are ok
+Functionm to print to concole in this format, "You lose! Paper beats Rock".
+Based on winner, humanScore ++ or computerScore ++ or tie
+
+PLAY 5 ROUNDS
+Create a function named playGame
+Move the playRound function into playGame and run it 5 times w while a loop
+    (Will need a helper variable to keep count of games)
+if humanScore is greater than computerScore
+    log to the console that human won
+else if vise versa
+    log to the console that the computer won
+else its a tie
+
+Thank the user for playing the game 
+
+
+
